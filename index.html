@@ -9,9 +9,16 @@
 <body>
   <main>
   <div class="container">
-<img src="assets/images/full/empty-street.jpeg" alt="empty street">
-<img src="assets/images/full/times-square.jpeg" alt="times square">
-<img src="assets/images/full/traffic-timelapse.jpeg" alt="traffic timelapse">  
+<img src="assets/images/full/empty-street.webp" 
+    srcset="assets/images/sm/empty-street.webp 600w,
+            assets/images/md/empty-street.webp 800w,
+            assets/images/lg/empty-street.webp 1200w"
+            sizes="(min-width: 1000px) 80vw,
+                   (min-width: 800px) 90vw,
+                   100vw"
+            alt="empty street" loading="lazy">
+<img src="assets/images/full/times-square.jpeg" alt="times square" loading="lazy">
+<img src="assets/images/full/traffic-timelapse.jpeg" alt="traffic timelapse" loading="lazy">  
 </div>
 </main>
 </body>
