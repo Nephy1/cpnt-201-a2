@@ -12,4 +12,6 @@ https://www.pexels.com/@pacofdezsaura
 Photo by Jose Francisco Fernandez Saura from Pexels
  ---
 
- I still don't really understand  the srcset, when I add it, my code breaks.
+ ## I still don't really understand  the srcset, when I add it, my code breaks.
+
+ Ended up realizing it was a file issue. I wasn't naming my file structure correctly when linking the additional links. ( Example, md/empty-street.webp instead of /md/empty-street-md.webp )

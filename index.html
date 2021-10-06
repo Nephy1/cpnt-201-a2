@@ -6,19 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>assignment 2</title>
 </head>
+<link rel="stylesheet" href="assets/css/style.css">
 <body>
-  <main>
-  <div class="container">
-<img src="assets/images/full/empty-street.webp" 
-    srcset="assets/images/sm/empty-street.webp 600w,
-            assets/images/md/empty-street.webp 800w,
-            assets/images/lg/empty-street.webp 1200w"
-            sizes="(min-width: 1000px) 80vw,
-                   (min-width: 800px) 90vw,
-                   100vw"
-            alt="empty street" loading="lazy">
+  <main class="container">
+  <div>
+<img src="assets/images/full/empty-street.webp" alt="empty street" loading="lazy">
 <img src="assets/images/full/times-square.jpeg" alt="times square" loading="lazy">
 <img src="assets/images/full/traffic-timelapse.jpeg" alt="traffic timelapse" loading="lazy">  
+</div>
+<!-- ^^ Full images ^^ ------  VV Images that change VV-->
+<div>
+  <img src="assets/images/sm/empty-street-sm.webp" alt="empty street"
+    srcset="assets/images/sm/empty-street-sm.webp 600w,
+            assets/images/md/empty-street-md.webp 800w,
+            assets/images/lg/empty-street-lg.webp 1200w"
+  sizes="(min-width: 1000px) 80vw,
+         (min-width: 600px) 90vw, 100vw"
+    loading="lazy">
+  <img src="assets/images/sm/times-square-sm.webp" alt="times square"
+    srcset="assets/images/sm/times-square-sm.webp 600w,
+                 assets/images/md/times-square-md.webp 800w,
+                 assets/images/lg/times-square-lg.webp 1200w"
+  sizes="(min-width: 1000px) 80vw,
+                 (min-width: 600px) 90vw, 100vw"
+    loading="lazy">
+  <img src="assets/images/sm/traffic-timelapse-sm.webp" alt="traffic timelapse"
+    srcset="assets/images/sm/traffic-timelapse-sm.webp 600w,
+            assets/images/md/traffic-timelapse-md.webp 800w,
+            assets/images/lg/traffic-timelapse-lg.webp 1200w"
+  sizes= "(min-width: 1000px) 80vw,
+      (min-width: 600px) 90vw, 100vw"
+    loading="lazy">
 </div>
 </main>
 </body>
