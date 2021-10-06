@@ -1,3 +1,7 @@
+https://github.com/Nephy1/cpnt-201-a2
+https://nephy1.github.io/cpnt-201-a2/
+
+
 # Attributions
 https://www.pexels.com/photo/time-lapse-photography-of-city-road-at-nighttime-1168940/
 https://www.pexels.com/@zhangkaiyv
